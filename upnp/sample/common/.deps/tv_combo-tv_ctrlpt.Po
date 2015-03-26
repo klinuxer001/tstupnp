@@ -1,0 +1,235 @@
+common/tv_combo-tv_ctrlpt.o: common/tv_ctrlpt.c common/tv_ctrlpt.h \
+ common/sample_util.h ../../threadutil/inc/ithread.h \
+ /opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/sys/param.h \
+ /opt/arm-linux/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/include-fixed/limits.h \
+ /opt/arm-linux/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/include-fixed/syslimits.h \
+ /opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/limits.h \
+ /opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/features.h \
+ /opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/sys/cdefs.h \
+ /opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/bits/wordsize.h \
+ /opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/gnu/stubs.h \
+ /opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/bits/posix1_lim.h \
+ /opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/bits/local_lim.h \
+ /opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/linux/limits.h \
+ /opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/bits/posix2_lim.h \
+ /opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/linux/param.h \
+ /opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/asm/param.h \
+ /opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/sys/types.h \
+ /opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/bits/types.h \
+ /opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/bits/typesizes.h \
+ /opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/time.h \
+ /opt/arm-linux/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/include/stddef.h \
+ /opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/endian.h \
+ /opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/bits/endian.h \
+ /opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/bits/byteswap.h \
+ /opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/sys/select.h \
+ /opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/bits/select.h \
+ /opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/bits/sigset.h \
+ /opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/bits/time.h \
+ /opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/sys/sysmacros.h \
+ /opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/bits/pthreadtypes.h \
+ ../../upnp/inc/UpnpGlobal.h ../../upnp/inc/UpnpUniStd.h \
+ /opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/unistd.h \
+ /opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/bits/posix_opt.h \
+ /opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/bits/confname.h \
+ /opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/getopt.h \
+ /opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/pthread.h \
+ /opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/sched.h \
+ /opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/bits/sched.h \
+ /opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/signal.h \
+ /opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/bits/setjmp.h \
+ ../../ixml/inc/ixml.h ../../upnp/inc/upnp.h ../../upnp/inc/upnpconfig.h \
+ ../../upnp/inc/UpnpGlobal.h ../../upnp/inc/UpnpInet.h \
+ ../../upnp/inc/UpnpUniStd.h \
+ /opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/arpa/inet.h \
+ /opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/netinet/in.h \
+ /opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/stdint.h \
+ /opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/bits/wchar.h \
+ /opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/sys/socket.h \
+ /opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/sys/uio.h \
+ /opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/bits/uio.h \
+ /opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/bits/socket.h \
+ /opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/bits/sockaddr.h \
+ /opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/asm/socket.h \
+ /opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/asm/sockios.h \
+ /opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/bits/in.h \
+ /opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/net/if.h \
+ ../../upnp/inc/upnptools.h \
+ /opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/stdlib.h \
+ /opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/alloca.h \
+ /opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/string.h \
+ ../../upnp/inc/UpnpString.h \
+ /opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/bits/signum.h \
+ /opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/bits/siginfo.h \
+ /opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/bits/sigaction.h \
+ /opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/bits/sigcontext.h \
+ /opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/asm/sigcontext.h \
+ /opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/bits/sigstack.h \
+ /opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/bits/sigthread.h \
+ /opt/arm-linux/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/include/stdarg.h \
+ /opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/stdio.h \
+ /opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/libio.h \
+ /opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/_G_config.h \
+ /opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/wchar.h \
+ /opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/bits/stdio_lim.h \
+ /opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/bits/sys_errlist.h
+
+common/tv_ctrlpt.h:
+
+common/sample_util.h:
+
+../../threadutil/inc/ithread.h:
+
+/opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/sys/param.h:
+
+/opt/arm-linux/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/include-fixed/limits.h:
+
+/opt/arm-linux/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/include-fixed/syslimits.h:
+
+/opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/limits.h:
+
+/opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/features.h:
+
+/opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/sys/cdefs.h:
+
+/opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/bits/wordsize.h:
+
+/opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/gnu/stubs.h:
+
+/opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/bits/posix1_lim.h:
+
+/opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/bits/local_lim.h:
+
+/opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/linux/limits.h:
+
+/opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/bits/posix2_lim.h:
+
+/opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/linux/param.h:
+
+/opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/asm/param.h:
+
+/opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/sys/types.h:
+
+/opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/bits/types.h:
+
+/opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/bits/typesizes.h:
+
+/opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/time.h:
+
+/opt/arm-linux/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/include/stddef.h:
+
+/opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/endian.h:
+
+/opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/bits/endian.h:
+
+/opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/bits/byteswap.h:
+
+/opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/sys/select.h:
+
+/opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/bits/select.h:
+
+/opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/bits/sigset.h:
+
+/opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/bits/time.h:
+
+/opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/sys/sysmacros.h:
+
+/opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/bits/pthreadtypes.h:
+
+../../upnp/inc/UpnpGlobal.h:
+
+../../upnp/inc/UpnpUniStd.h:
+
+/opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/unistd.h:
+
+/opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/bits/posix_opt.h:
+
+/opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/bits/confname.h:
+
+/opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/getopt.h:
+
+/opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/pthread.h:
+
+/opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/sched.h:
+
+/opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/bits/sched.h:
+
+/opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/signal.h:
+
+/opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/bits/setjmp.h:
+
+../../ixml/inc/ixml.h:
+
+../../upnp/inc/upnp.h:
+
+../../upnp/inc/upnpconfig.h:
+
+../../upnp/inc/UpnpGlobal.h:
+
+../../upnp/inc/UpnpInet.h:
+
+../../upnp/inc/UpnpUniStd.h:
+
+/opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/arpa/inet.h:
+
+/opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/netinet/in.h:
+
+/opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/stdint.h:
+
+/opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/bits/wchar.h:
+
+/opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/sys/socket.h:
+
+/opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/sys/uio.h:
+
+/opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/bits/uio.h:
+
+/opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/bits/socket.h:
+
+/opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/bits/sockaddr.h:
+
+/opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/asm/socket.h:
+
+/opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/asm/sockios.h:
+
+/opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/bits/in.h:
+
+/opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/net/if.h:
+
+../../upnp/inc/upnptools.h:
+
+/opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/stdlib.h:
+
+/opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/alloca.h:
+
+/opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/string.h:
+
+../../upnp/inc/UpnpString.h:
+
+/opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/bits/signum.h:
+
+/opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/bits/siginfo.h:
+
+/opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/bits/sigaction.h:
+
+/opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/bits/sigcontext.h:
+
+/opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/asm/sigcontext.h:
+
+/opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/bits/sigstack.h:
+
+/opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/bits/sigthread.h:
+
+/opt/arm-linux/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/include/stdarg.h:
+
+/opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/stdio.h:
+
+/opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/libio.h:
+
+/opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/_G_config.h:
+
+/opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/wchar.h:
+
+/opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/bits/stdio_lim.h:
+
+/opt/arm-linux/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/include/bits/sys_errlist.h:
