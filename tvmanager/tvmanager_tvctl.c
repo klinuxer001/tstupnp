@@ -58,10 +58,12 @@ static int tvcp_callback(Upnp_EventType Type, void *Event, void *Cookie)
 void init_local_control(struct g_tvctl_ctl *tvc)
 {
 	tvc->log = open_log_file();
+	tvc->upnpinited = 0;
 }
 
 int init_tvctl(void)
 {
+	int rc = -1;
 	init_local_control(&g_tvctl);
 	wrlog("UPNP_VERSION_STRING = %s\n"
 				"UPNP_VERSION_MAJOR  = %d\n"
@@ -74,16 +76,22 @@ int init_tvctl(void)
 
 	dump_flags(g_tvctl.log);
 	//初始化UPNP
-	int rc = UpnpInit (NULL, 0);
-	if ( UPNP_E_SUCCESS == rc ) {
-		const char* ip_address = UpnpGetServerIpAddress();
-		unsigned short port    = UpnpGetServerPort();
-		
-		wrlog("UPnP Initialized OK ip=%s, port=%d\n", 
-			(ip_address ? ip_address : "UNKNOWN"), port);
-	} else {
-		wrlog("Upnp init failed,error: %s\n", UpnpGetErrorMessage (rc));
-		return -1;
+	if( g_tvctl.upnpinited == 0 )
+	{
+		rc = UpnpInit (NULL, 0);
+		if ( UPNP_E_SUCCESS == rc ) {
+			const char* ip_address = UpnpGetServerIpAddress();
+			unsigned short port    = UpnpGetServerPort();
+			
+			wrlog("UPnP Initialized OK ip=%s, port=%d\n", 
+				(ip_address ? ip_address : "UNKNOWN"), port);
+			g_tvctl.upnpinited = 1;
+		} else {
+			wrlog("Upnp init failed,error: %s\n", UpnpGetErrorMessage (rc));
+			return -1;
+		}
+	}else{
+		//do nothing
 	}
 	//注册设备-控制点
 	rc = UpnpRegisterClient(tvcp_callback, &ctrlpt_handle, &ctrlpt_handle);

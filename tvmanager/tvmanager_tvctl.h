@@ -3,6 +3,7 @@
 
 struct g_tvctl_ctl{
 	FILE *log;
+	unsigned char upnpinited;
 }g_tvctl;
 
 
